@@ -1,0 +1,40 @@
+{
+    "title": "My Javascript",
+    "author": "恒星",
+    "description": "my javascript",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "cli" : "2.3.2",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "toggle-chapters",
+        "tbfed-pagefooter",
+        "github",
+        "github-buttons"
+    ],
+     "pluginsConfig": {
+         "tbfed-pagefooter": {
+             "copyright":"Copyright© 恒星 ",
+             "modify_label": "该文件修订时间：",
+             "modify_format": "YYYY-MM-DD HH:mm:ss"
+         },
+         "github": {
+            "url": "https://github.com/Johnharvy/Javascipt_Records.git"
+          },
+          "github-buttons": {
+            "buttons": [{
+              "user": "JohnHarvy",
+              "repo": "mysql",
+              "type": "star",
+              "size": "small",
+              "count": true
+            }]
+          }
+  
+     }
+}
