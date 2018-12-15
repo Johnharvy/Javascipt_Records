@@ -29,9 +29,9 @@
           "github-buttons": {
             "buttons": [{
               "user": "JohnHarvy",
-              "repo": "mysql",
+              "repo": "Javascipt_Records.git",
               "type": "star",
-              "size": "small",
+              "size" : "large",
               "count": true
             }]
           }
